@@ -1,12 +1,12 @@
 -------------------------------------
-Magazine Recommendation system Readme
+# Magazine Recommendation system Readme
 -------------------------------------
 
 Section 1 below is about our deployment dashboard link, administrator and user accounts. If you want to setup your environment, you can go to Section 2.
 
 Section 1:
 ------------------------------------------------------------------------------------------------
-Link - XXXX
+Link - https://bi66yz.onrender.com/
 Admin account: 
 Login ID: admin
 Password: 1234
@@ -40,7 +40,9 @@ https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_2023/raw/meta_categories
 
 Step 5: Unzip the two dataset files, and then copy the "Magazine_Subscriptions.jsonl" and "meta_Magazine_Subscriptions.jsonl" files to the "C:\Assignment2_RS_239669700_bi66yz\datasets\" folder.
 
-*** Remark: If you have not installed python or do not have much experience, you must follow Step 6 to Step 10, otherwise jump to Step 11***
+***************************
+Remark: If you have not installed python or do not have much experience, you must follow Step 6 to Step 10, otherwise jump to Step 11
+***************************
 
 Step 6: Download and install Anaconda from the link below
 https://docs.anaconda.com/anaconda/install/
@@ -71,8 +73,10 @@ pip install wordcloud
 Step 12: Check whether python has the above library installed and execute the following command in the command prompt.
 pip list
 
-
-*** Remark: You can download our model directly from XXXX and unzip it to the "export_model" folder, otherwise you must run Step 13, this program takes about 30 mins to run ***
+***************************
+Remark: You can download our model directly from https://github.com/kiukwok/bi66yz_rs/raw/refs/heads/master/export_model/surprise_model and
+copy it to the "export_model" folder, otherwise you must run Step 13, this program takes about 30 mins to run
+***************************
 
 Step 13: Training model program, execute the following command in the command prompt.
 python C:\Assignment2_RS_239669700_bi66yz\Assignment2_for_magazine_rs_program_239669700_bi66yz.py
