@@ -1,5 +1,5 @@
 -------------------------------------
-# Magazine Recommendation system Readme
+Magazine Recommendation system Readme
 -------------------------------------
 
 Section 1 below is about our deployment dashboard link, administrator and user accounts. If you want to setup your environment, you can go to Section 2.
