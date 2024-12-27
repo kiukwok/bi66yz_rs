@@ -202,16 +202,11 @@ user_recommendation_title.update(font_20)
 
 #--- Load Machine learning Model ---
 def load_model(model_fullpath):
-    user_predict_result, trained_model = dump.load(model_fullpath)
-    #with open('./export_model/suprise_knnmodel.pkl', 'rb') as f:  # 读取pickle文件
-    #    user_predict_result, trained_model = joblib.load(f)
-    #    f.close()
-    
+    user_predict_result, trained_model = dump.load(model_fullpath)    
     return user_predict_result, trained_model
 
 #--- Save before record function ---
 def save_log(dictionary, log_filepath):
-    #pass
     with open(log_filepath, 'wb') as f:
         pickle.dump(dictionary, f)    
 

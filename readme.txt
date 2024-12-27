@@ -28,7 +28,7 @@ Section 2:
 ------------------------------------------------------------------------------------------------
 The following steps are used to install and execute our recommendation system. Please try to follow. Thank you!
 
-Step 1: Download the "Assignment2_RS_239669700_bi66yz.zip" file from the University of Sunderland / Github and unzip it to the "C:\" drive.
+Step 1: Download the "Assignment2_RS_239669700_bi66yz.zip" file from the University of Sunderland / Github and unzip it to the "C:\Assignment2_RS_239669700_bi66yz" drive.
 
 Step 2: Confirm that there are "Assignment2_for_magazine_rs_program_239669700_bi66yz.py" and "dashboard_rs.py" program files in the "C:\Assignment2_RS_239669700_bi66yz" folder
 
